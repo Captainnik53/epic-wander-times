@@ -1,0 +1,71 @@
+.main-container {
+    height: 100vh;
+    background-image: url("../../assets/cliff_2.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
+    box-shadow: inset 5px 20px 100px 0 black;
+    overflow: hidden;
+}
+
+.content-container {
+    display: flex;
+    height: 100%;
+}
+
+.left-content {
+    flex: 30%;
+}
+
+.right-content {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 13%;
+}
+
+.guide-text {
+    color: #e9c675;
+    font-weight: 700;
+    font-size: large;
+}
+
+.main-text {
+    color: white;
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    max-width: 40%;
+}
+
+.dashed-line::before {
+    content: "";
+    display: inline-block;
+    font-size: large;
+    font-weight: 700;
+    width: 130px; 
+    height: 2px; 
+    background-color: #e9c675; 
+    margin-right: 10px;
+    margin-bottom: 2%; 
+}
+
+.fx-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.scroll-down-text {
+    color: white;
+    cursor: pointer;
+    align-items: end;
+    margin-top: -25px;
+}
+
+.scroll-down-text:hover {
+    color: #e9c675
+}
+
+.pl-4 {
+    padding-left: 4px;
+}

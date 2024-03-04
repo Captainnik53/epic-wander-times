@@ -1,0 +1,63 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-regular-fonts {
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.header-font {
+    font-family: "Playfair Display", serif;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding-left: 20px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #e9c675
+}
+
+button {
+    padding: 7.5px 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgba(10, 30, 39, 0.1);
+}
+
+.pr-8 {
+    padding-right: 8px;
+}
